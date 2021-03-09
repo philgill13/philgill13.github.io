@@ -1,0 +1,127 @@
+body{
+    /*font-fmaily:;*/
+    font-size:20px;
+    line-height:1.5;
+    padding:0;
+    margin:0;
+    background-color:white;
+
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+header{
+    background: #f2f2f2;
+    color:black;
+    padding-top: 30px;
+    min-height: 70px;
+    
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 3px;
+    
+
+
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+}
+header #branding h1{
+    margin:0;
+}
+header nav{
+    float:right;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+
+header a:hover{
+    font-weight: bolder;
+}
+
+#showcase{
+    min-height: 500px;
+    background:url('../stormking/images/IMG_2205.JPG') ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    
+    /* object-fit: cover; */
+    text-align: center;
+    color: white;
+    
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+#pictures{
+    margin-top: 20px;
+}
+
+#pictures .box{
+    float: left;
+    width: 30%;
+    padding:10px;
+    text-align: center;
+    /*box-sizing: border-box;*/
+    /*vertical-align: baseline;*/
+    /*word-wrap: break-word;*/
+}
+
+#pictures .box img{
+    width:500px;
+    height:500px;
+    }
+
+    #services h1{
+        text-align: center;
+    }
+
+    #partners .box{
+        float: left;
+        width: 30%;
+        padding:10px;
+        text-align: center;
+    }
+
+    
+    
+
+footer{
+    padding:20px;
+    margin-top: 20px;
+    color: black;
+    background-color: #f2f2f2;
+    text-align: center;
+
+}
