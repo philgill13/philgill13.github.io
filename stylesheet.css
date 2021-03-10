@@ -114,6 +114,26 @@ header a:hover{
         text-align: center;
     }
 
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:768px){
+   .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color:#FBFCFC;
+        display: flex;
+        align-items: center;
+        width: 50%;
+        
+    }
+}
+
     
     
 
