@@ -99,8 +99,9 @@ header a:hover{
 }
 
 #pictures .box img{
-    width:500px;
-    height:500px;
+    max-width: 10%;
+    max-height: 10%;
+    transform: scale(10);
     }
 
     #services h1{
