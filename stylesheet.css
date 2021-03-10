@@ -93,6 +93,7 @@ header a:hover{
     width: 30%;
     padding:10px;
     text-align: center;
+    display: block;
     /*box-sizing: border-box;*/
     /*vertical-align: baseline;*/
     /*word-wrap: break-word;*/
