@@ -99,9 +99,14 @@ header a:hover{
 }
 
 #pictures .box img{
-    max-width: 10%;
-    max-height: 10%;
-    transform: scale(10);
+    width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-fit: contain;
+  object-fit: scale-down;
+  object-position: -10% 0;
+  object-fit: none;
+  object-fit: fill;
     }
 
     #services h1{
